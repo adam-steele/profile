@@ -1,0 +1,108 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+body{
+  background-color:#606C38;
+  font-family: "Andale Mono";
+  color:#283618;
+  font-size: 12;
+  line-height: 2;
+}
+
+.container{
+  margin:auto;
+}
+
+.card{
+  background-color: #FEFAE0;
+  margin:20px;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  text-align: center;
+  width: 600px;
+  margin: 20px auto;
+}
+
+h1,h2,h3{
+  font-family: "Helvetica Monospaced";
+  color:#BC6C25;
+  font-size: 10;
+  line-height: 2;
+}
+
+
+a{
+  color:#DDA15E;
+  text-decoration:none;
+}
+
+li{
+  list-style-type: none;
+  padding: 0px;
+}
+
+a:hover{
+  color:#283618;
+}
+
+
+.fa-instagram{
+  padding: 0px 2px;
+  background-color: #DDA15E ;
+  color: #FEFAE0;
+  border-radius: 5px;
+}
+
+.fa-instagram:hover{
+  background-color:#283618;
+}
+
+#me2{
+  object-position: -2px 4px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.list-inline{
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+
+.button{
+  background-color:#606C38;
+  color: #FEFAE0;
+  border-radius: 5px;
+  padding:15px 20px;
+}
+
+.button:hover{
+  background-color:#283618;
+  color: white;
+}
